@@ -30,7 +30,7 @@ with st.sidebar.beta_expander("License"):
 
 if option == 'Home' :
     st.title('Stock Forecast App')
-    image = Image.open('/Users/Sidharth S/Desktop/stck2.jpg')
+    image = Image.open('stck3.jpg')
     st.image(image,width=None)
     st.subheader('Introduction')
     st.write("Trading is tough. Part-time folks trading from their home are up against professionals.The professionals are really great at taking the money.Where there is potential reward, there is potential risk.The results equity curve might only show the reward side of the equation, but risk is always there.So it is a wise idea to implement Artificial intelligence and deep learning technologies into this market which can disrupt the current scenario.In this work we use deep learning architecture and machine learning to predict the future stock prices and further plan to automate intraday trading.")
