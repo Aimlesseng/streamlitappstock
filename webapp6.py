@@ -655,7 +655,7 @@ if option == 'About Us' :
           st.bokeh_chart(div)
     
     with c7:
-      if st.button('Paper Works'):
+      if st.button('PaperWorks'):
           js = "window.open('https://drive.google.com/drive/folders/1aF9UOtgymjedGmiEkUqXNdNnyp3bACN1')"  # New tab or window
           html = '<img src onerror="{}">'.format(js)
           div = Div(text=html)
