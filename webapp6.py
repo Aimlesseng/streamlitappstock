@@ -10,6 +10,8 @@ from PIL import Image
 import time
 import base64
 import webbrowser
+from bokeh.models.widgets import Div
+
 
 START = "2015-01-01"
 TODAY = date.today().strftime("%Y-%m-%d")
@@ -647,12 +649,17 @@ if option == 'About Us' :
 
     with c6:
        if st.button('Github'):
-          webbrowser.open_new_tab(giturl)
+          js = "window.open('https://github.com/Aimlesseng/streamlitappstock')"  # New tab or window
+          html = '<img src onerror="{}">'.format(js)
+          div = Div(text=html)
+          st.bokeh_chart(div)
     
     with c7:
       if st.button('Paper Works'):
-          webbrowser.open_new_tab(paperurl)
-
+          js = "window.open('https://drive.google.com/drive/folders/1aF9UOtgymjedGmiEkUqXNdNnyp3bACN1')"  # New tab or window
+          html = '<img src onerror="{}">'.format(js)
+          div = Div(text=html)
+          st.bokeh_chart(div)
     
     
     
