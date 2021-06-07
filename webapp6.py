@@ -329,7 +329,7 @@ if option == 'Home' :
     <div class="row">
       <div class="col-md-8 blog-main">
         <h3 class="pb-3 mb-4 font-italic border-bottom">
-          WELOCOME TO THE WORLD OF TRADING
+          WELCOME TO THE WORLD OF TRADING
         </h3>
 
         <div class="blog-post">
